@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LAH Insurance Producer | Free & Paid Consultations</title>
+  <meta name="description" content="Speak with LAH Insurance Producer. Book a free 10-min discovery call, 30-min consultation ($25), or full 1-hour session ($45).">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero Section -->
+  <header class="bg-blue-700 text-white py-20">
+    <div class="max-w-5xl mx-auto text-center px-6">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">LAH Insurance Producer</h1>
+      <p class="text-xl md:text-2xl">Licensed Insurance Professional – Helping you find the right coverage</p>
+    </div>
+  </header>
+
+  <!-- Booking Options -->
+  <section class="py-20 bg-white">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Schedule a Consultation</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Free 10-min -->
+        <div class="border-2 border-blue-600 rounded-xl p-8 hover:shadow-xl transition">
+          <i class="fas fa-clock text-5xl text-blue-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-2">Quick Discovery Call</h3>
+          <p class="text-4xl font-bold text-blue-600 mb-4">FREE</p>
+          <p class="mb-6">10 minutes</p>
+          <a href="https://cal.com/yourusername/10min-free" 
+             class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition">
+             Book Free 10 min → 
+          </a>
+        </div>
+
+        <!-- 30-min $25 -->
+        <div class="border-2 border-green-600 rounded-xl p-8 hover:shadow-xl transition scale-105">
+          <i class="fas fa-headset text-5xl text-green-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-2">Standard Consultation</h3>
+          <p class="text-4xl font-bold text-green-600 mb-4">$25</p>
+          <p class="mb-6">30 minutes</p>
+          <a href="https://cal.com/yourusername/30min-paid" 
+             class="inline-block bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition">
+             Book 30 min ($25) →
+          </a>
+        </div>
+
+        <!-- 1-hour $45 -->
+        <div class="border-2 border-purple-600 rounded-xl p-8 hover:shadow-xl transition">
+          <i class="fas fa-user-tie text-5xl text-purple-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold mb-2">In-Depth Review</h3>
+          <p class="text-4xl font-bold text-purple-600 mb-4">$45</p>
+          <p class="mb-6">1 hour</p>
+          <a href="https://cal.com/yourusername/60min-paid" 
+             class="inline-block bg-purple-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-purple-700 transition">
+             Book 1 hour ($45) →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to set this up in 5 minutes -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-3xl mx-auto text-center px-6 text-sm">
+      <p class="mb-4"><strong>Quick Setup Instructions (you only do this once):</strong></p>
+      <ol class="text-left inline-block text-gray-700 space-y-2">
+        <li>1. Go to <a href="https://cal.com" class="underline text-blue-600">cal.com</a> → Sign up (free)</li>
+        <li>2. Create your username (e.g., cal.com/lah-insurance)</li>
+        <li>3. Add three event types with the exact durations and prices above</li>
+        <li>4. For the paid ones: connect Stripe (takes 2 minutes) → set price $25 and $45</li>
+        <li>5. Replace "yourusername" in the three links above with your actual Cal.com username</li>
+        <li>6. Upload this file to Netlify/Vercel or any host → done!</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-10 text-center">
+    <p>LAH Insurance Producer • Licensed in [Your State(s)] • NPN: [Your NPN if you want]</p>
+    <p class="mt-2">Questions? Email: your-email@domain.com • Phone: (555) 123-4567</p>
+  </footer>
+</body>
+</html>
